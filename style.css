@@ -1,0 +1,85 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#result{
+    background-color: blue;
+    width: 600px;
+    height: 100px;
+    /* margin: auto; */
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    /* margin-left: 226px */
+    margin: auto;
+    margin-top: 20px;
+
+    
+    
+
+
+}
+#result ul{
+
+    list-style: none;
+    display: flex;
+   
+}
+#result li{
+
+   margin-left: 80px;
+   margin: auto;
+   
+}
+.main{
+    background-color: aliceblue;
+   
+    margin-top: 30px;
+    /* margin-left: 230px; */
+    margin: auto;
+    width: 500px;
+    padding-left: 116px;
+    padding: 37px 100px;
+    border: 5px solid darkgrey;
+    box-shadow: 2px 2px 6px 5px;
+    margin-top: 20px;
+}
+.user_data{
+   width: 600px;
+   margin: auto;
+    border: 5px solid darkgrey;
+    box-shadow: 2px 2px 6px 5px;
+}
+.user_data input{
+    width: 500px;
+}
+#selection{
+    width: 500px;
+}
+.displayResult{
+    width: 700px;
+    margin: auto;
+    border: 5px solid darkgrey;
+    box-shadow: 2px 2px 6px 5px;
+    margin-top: 20px;
+}
+.dueUserDate{
+    width: 700px;
+    margin: auto;
+    border: 5px solid darkgrey;
+    box-shadow: 2px 2px 6px 5px;
+    
+   
+}
+#totalValue{
+    color: red;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 20px;
+}
+#dueUserDate{
+    font-size: 20px;
+}

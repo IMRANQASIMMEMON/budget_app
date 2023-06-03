@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FONT OWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="app.js" defer></script>
+  <title>Document</title>
+
+</head>
+
+<body>
+  <!-- <div class="main">
+<div class="cafe"></div>
+<div class="shopping"></div>
+<div class="loan"></div>
+<div class="card"></div>
+
+    </div> -->
+
+  <div class="main">
+    <h3>Set Budget Form:</h3>
+
+    <h2>Budget</h2>
+    <input type="number" placeholder="Enter Total Amount" id="budgetOfUser">
+    <button class="btn btn-primary" id="setBudget" onclick="data()">Set Budget</button>
+  </div>
+  <!-- form of user -->
+  <br><br><br>
+  <div class="user_data">
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="inputEmail4">Due Date</label>
+        <input type="date" class="form-control" id="dueDate" placeholder="Due Date">
+      </div>
+
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="inputCity">total amount</label>
+        <input type="number" class="form-control" id="totalAmount">
+
+      </div>
+
+    </div>
+
+
+
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="inputCity">Category</label>
+        <select class="form-control" placeholder="Category" id="selection">
+          <option>Cost of services provided</option>
+          <option value="Restaurants  & CafeAC">Restaurants & CafeAC</option>
+          <option value="Clothes  & Shopping">Clothes & Shopping</option>
+          <option value="Credit & Loans">Credit & Loans</option>
+          <option value="Gifts Card">Gifts Card</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress2">Discription</label>
+      <input type="text" class="form-control" id="Discription" placeholder="Discription">
+    </div>
+
+
+    <div class="form-group">
+      <label for="inputEmail4">Payment Date</label>
+      <input type="date" class="form-control" id="Payment_ Date" placeholder="Payment_ Date">
+    </div>
+
+
+  </div>
+  <!-- <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputEmail4">Due Date</label>
+            <input type="date" class="form-control" id="dueDate" placeholder="Due Date">
+          </div> -->
+
+
+
+
+
+
+  <div id="result">
+  </div>
+  <!-- TODO LIST -->
+<div class="dueUserDate">
+  <div id="dueUserDate"></div>
+<div id="totalValue">total value</div>
+</div>
+
+  <div class="displayResult">
+    <table class="table">
+      <tr>
+        <th>CATEGORY</th>
+        <th>DESCRIPTION</th>
+        <th>PRICE</th>
+        <th>EDITE</th>
+        <th>DELETE</th>
+      </tr>
+      <tbody id="displayTable">
+        <!-- <tr>
+    <th>Restaurants & Cafe<br>
+      20 Auguest 2019
+    </th>
+    <td>99</td>
+    <td><i class="btn text-white fa-solid fa-edit btn-info mx-3"></i></td>
+    <td><i class="btn text-white fa-solid fa-trash btn btn-danger"></i></td>
+  </tr> -->
+      </tbody>
+    </table>
+
+  </div>
+
+
+
+
+  <!-- jQuery library -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   -->
+  <!-- Latest compiled JavaScript -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+
+</body>
+
+</html>
